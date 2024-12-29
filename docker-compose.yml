@@ -1,0 +1,11 @@
+version: "3"
+services:
+  streamlit-service:
+    image: streamlit_template_image
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: streamlit_template_container
+
+    volumes:
+      - .:/workspace:cached

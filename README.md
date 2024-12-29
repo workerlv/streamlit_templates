@@ -9,15 +9,7 @@ cd path/to/project
 
 ## Checkout this branch
 ```
-git checkout in_docker_image
+git checkout in_devcontainer
 ```
 
-## Build project
-```
-docker build -t streamlit_template .
-```
-
-## Run project
-```
-docker run -p 8501:8501 streamlit_template
-```
+## Build docker container
