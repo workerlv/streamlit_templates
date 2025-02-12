@@ -1,7 +1,7 @@
 version: "3"
 services:
-  streamlit-service:
-    image: streamlit_template_image
+  streamlit-service: # TODO: CHANGE NAME
+    image: streamlit_template_image # TODO: CHANGE NAME
     build: 
       context: .
       dockerfile: Dockerfile
